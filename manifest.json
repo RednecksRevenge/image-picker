@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Image Picker",
+  "version": "0.1",
+  "description": "Instagram Image Picker",
+  "content_scripts": [{
+    "matches": [
+      "https://www.instagram.com/*"
+    ],
+    "js": ["js/picker.js"]
+  }],
+  "permissions": ["activeTab"]
+}
